@@ -1,0 +1,127 @@
+* {
+  font-family: "Exo 2", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  color: #09502f;
+}
+
+.main-title {
+  margin-top: 32px;
+}
+
+.main-subtitle {
+  font-size: 12px;
+}
+
+.cards {
+  margin-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+}
+
+.card {
+  flex: 1 1 100%;
+  text-align: center;
+  background: #f6fdfe;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 25px;
+  border: 1px solid #eaf2fa;
+}
+
+.free {
+  color: rgb(87, 142, 6);
+}
+
+.pro {
+  color: rgb(0, 81, 255);
+}
+
+.premium {
+  color: orange;
+}
+
+.card-title {
+  font-size: 0.65rem;
+  text-transform: uppercase;
+}
+
+.buy-box {
+  background: white;
+  margin: 0.5rem;
+  padding: 0.5rem 0.5rem 0.75rem;
+  border: 1px solid #eaf2fa;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.card-list {
+  font-size: 0.5rem;
+  text-align: left;
+  margin: 1rem 1rem 0;
+}
+
+.card-list-title {
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.btn-container {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.buy-btn {
+  margin: 0.5rem auto;
+  border: 0;
+  width: 150px;
+  background: grey;
+  color: white;
+  padding: 0.5rem;
+  font-size: 0.5rem;
+  text-transform: capitalize;
+  border-radius: 4px;
+  text-decoration: none;
+  display: inherit;
+}
+
+.hint {
+  font-size: 0.5rem;
+  line-height: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.free-btn {
+  background: rgb(87, 142, 6);
+}
+
+.pro-btn {
+  background: rgb(0, 81, 255);
+}
+
+.premium-btn {
+  background: orange;
+}
+
+.compare-btn {
+  background: #eaf2fa;
+  color: #09502f;
+  border-radius: 20px;
+  font-size: 16px;
+}
